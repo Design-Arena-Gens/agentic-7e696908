@@ -914,4 +914,9 @@ config/database.yml
 *.tar
 *.zip
 
+# Project configuration that must remain tracked
+!package.json
+!tsconfig.json
+!.eslintrc.json
+
 # ===== END =====
